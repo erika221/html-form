@@ -1,0 +1,62 @@
+<!DOCTYPE html>  
+<html lang="en"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Document</title> 
+</head> 
+<body> 
+    <h1></h1>  
+    <span></span> <br> <span></span> 
+    <p></p> 
+    <div></div> 
+
+    <form action="/action_page.php">
+    <!-- text input -->
+    <label>Username:</label>   <!-- OR Username: -->
+    <input requied type="text" placeholder="Enter your username" value="username"> 
+                   <!-- value is initial info -->
+                    <!-- other attributes: maxlength -->
+                     <!-- required means cannot left empty -->
+    
+    <!-- password input -->
+    <label>Password</label>
+    <input type="password" placeholder="Enter your password"> 
+                    <!-- value is initial info -->
+    <!-- checkbox input -->
+    <input type="checkbox">
+    <label>Show Password</label><br>
+
+    
+    <!-- radio button input -->
+     <input type="radio" name="computer" value="home">Home Computer<br>
+     <input type="radio" name="computer" value="work">Work Computer<br>
+     <input type="radio" name="computer" value="other">Other<br>
+
+    <!-- checkbox -->
+    <input type="checkbox" name="genre1" value="g1">Pop<br>
+    <input type="checkbox" name="genre2" value="g2">Rock<br>
+    <input type="checkbox" name="genre3" value="g3">Rap<br>
+
+    <button></button>
+    <a href="register.html">Don't have an account? Create one</a>
+       <!-- link -->
+
+    <!-- dropdown list. Single selection -->
+       <h4>How many wheels do you need to replace for your car?</h4>
+    <select name="days">
+	    <option value="1">one</option>
+	    <option value="2">two</option>
+	    <option value="3">three</option>
+	    <option value="4">four</option>
+    </select>
+
+    <!-- submit, used to refresh the page.
+     triggers the web form to send the collected values to the server.  -->
+    <input type="button" value="Login"><br>
+    <input type="submit" value="Login"><br>
+       
+    </form>
+</body> 
+</html> 
+ 
